@@ -1,0 +1,135 @@
+body{
+    width: 100%;
+}
+.container, .buttons{
+    float:left;
+    margin: 0;
+    text-align: center;
+}
+.buttons{
+    width: 10%;
+    align-content: space-between;
+    margin-top: 3%;
+}
+.buttons:first-child{
+    margin-left: 5%;
+}
+.button{
+    width: 40px;
+    height: 40px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    border: 2px solid cornflowerblue;
+    vertical-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.button:hover{
+    cursor: pointer;
+    border: 2px solid #6495ed;
+
+    background-color: #a9c4f5;
+    color: white;
+}
+.button:active{
+    background-color: #fff;
+    color: cornflowerblue;
+}
+.container{
+    margin-top: 20px;
+    border: 1px solid black;
+    /*border-radius: 10px;*/
+    width: 100%;
+}
+.item{
+    border-bottom: 1px solid black;
+
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+}
+.item:last-child{
+    border-bottom: none;
+    /*border-radius:0 0 10px 10px ;*/
+}
+.item:hover{
+    cursor: pointer;
+}
+/*.item:focus{*/
+/*    cursor: pointer;*/
+/*    background-color: #a9d1f5;*/
+/*}*/
+.item:first-child{
+    /*border-radius: 10px 10px 0 0;*/
+}
+.sort{
+    width: 40px;
+    height: 40px;
+    background-color: #f07ba5;
+    border-radius: 5px;
+    border: 2px solid #f07ba5;
+    vertical-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    transform: rotate(90deg);
+}
+.sort:hover{
+    cursor: pointer;
+    border: 2px solid #f07ba5;
+
+    background-color: #f5a9c4;
+    color: white;
+}
+.sort:active{
+    background-color: #fff;
+    color: #f07ba5;
+}
+input{
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    width: 98%;
+}
+.col{
+    margin-top: 2%;
+    float:left;
+    width: 30%;
+}
+.setting{
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f07ba5;
+    border-radius: 5px;
+    border: 2px solid #f07ba5;
+    color: white;
+    font-size: 18px;
+}
+.setting:hover{
+    cursor: pointer;
+    border: 2px solid #f07ba5;
+
+    background-color: #f5a9c4;
+    color: white;
+}
+.setting:active{
+    background-color: #fff;
+    color: #f07ba5;
+}
+.box{
+    width: 100%;
+    float: left;
+}
